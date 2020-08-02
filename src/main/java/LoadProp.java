@@ -8,7 +8,7 @@ import java.util.Properties;
 public class LoadProp { //Class to get Data from file "TestDataConfig.properties"
     static Properties prop;
     static FileInputStream input; //Variable to store filelocation and file name
-    static String fileName = "TestDataConfig.properites"; //Variable to store file name for data collection
+    static String fileName = "TestDataConfig.properties"; //Variable to store file name for data collection
     static String fileLocation = "src\\test\\resources\\TestData\\"; //Variable to store location for the file name of data cllection
 
     public String getProperty(String key) {

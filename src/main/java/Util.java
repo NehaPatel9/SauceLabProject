@@ -24,6 +24,9 @@ public class Util extends BasePage {
     public static String getTextfromElement(By by) { //Reusable method to get text from element
         return driver.findElement(by).getText();
     }
+
+
+
     //Reusable method to select element by value from drop down menu
     public static void selectFromDropDownByValue(By by, String n, int time) {
         Select select = new Select(driver.findElement(by));
