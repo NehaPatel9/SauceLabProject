@@ -24,7 +24,7 @@ Feature:
       | invalid_username | invalid_password |
       | admin            |                  |
       |                  | admin123         |
-#      | admin@123        | password         |
-#      | 123              | admin123         |
-#      | ADMIN            | admin123         |
-#      | @admin           | ADMIN123         |
+      | admin@123        | password         |
+      | 123              | admin123         |
+      | ADMIN999         | admin123         |
+      | @admin           | ADMIN123         |

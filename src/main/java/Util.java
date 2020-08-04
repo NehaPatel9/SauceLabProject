@@ -25,8 +25,6 @@ public class Util extends BasePage {
         return driver.findElement(by).getText();
     }
 
-
-
     //Reusable method to select element by value from drop down menu
     public static void selectFromDropDownByValue(By by, String n, int time) {
         Select select = new Select(driver.findElement(by));
@@ -56,5 +54,6 @@ public class Util extends BasePage {
     public static String getUrl(){
         return driver.getCurrentUrl();
     }
+    //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 }
 

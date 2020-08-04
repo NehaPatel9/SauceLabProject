@@ -74,12 +74,44 @@ formatter.examples({
       ],
       "line": 26,
       "id": ";user-should-not-be-able-to-log-in-successfully.;;3"
+    },
+    {
+      "cells": [
+        "admin@123",
+        "password"
+      ],
+      "line": 27,
+      "id": ";user-should-not-be-able-to-log-in-successfully.;;4"
+    },
+    {
+      "cells": [
+        "123",
+        "admin123"
+      ],
+      "line": 28,
+      "id": ";user-should-not-be-able-to-log-in-successfully.;;5"
+    },
+    {
+      "cells": [
+        "ADMIN999",
+        "admin123"
+      ],
+      "line": 29,
+      "id": ";user-should-not-be-able-to-log-in-successfully.;;6"
+    },
+    {
+      "cells": [
+        "@admin",
+        "ADMIN123"
+      ],
+      "line": 30,
+      "id": ";user-should-not-be-able-to-log-in-successfully.;;7"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5455027699,
+  "duration": 19836110101,
   "status": "passed"
 });
 formatter.scenario({
@@ -131,7 +163,7 @@ formatter.match({
   "location": "MyStepDefs.user_is_on_homepage()"
 });
 formatter.result({
-  "duration": 197883121,
+  "duration": 3401436836,
   "status": "passed"
 });
 formatter.match({
@@ -144,7 +176,7 @@ formatter.match({
   "location": "MyStepDefs.user_enters_in_username_inputbox(String)"
 });
 formatter.result({
-  "duration": 30169989,
+  "duration": 5399466765,
   "status": "passed"
 });
 formatter.match({
@@ -157,29 +189,29 @@ formatter.match({
   "location": "MyStepDefs.user_enters_in_password_inputbox(String)"
 });
 formatter.result({
-  "duration": 19585147,
+  "duration": 2617138956,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefs.user_should_able_to_click_on_login_button()"
 });
 formatter.result({
-  "duration": 236574172,
+  "duration": 2288637170,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefs.user_should_not_be_able_to_log_in_successfully_and_user_should_get_an_error_message()"
 });
 formatter.result({
-  "duration": 29705025,
+  "duration": 5811526817,
   "status": "passed"
 });
 formatter.after({
-  "duration": 766098700,
+  "duration": 1869155547,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6203543005,
+  "duration": 14508207145,
   "status": "passed"
 });
 formatter.scenario({
@@ -231,7 +263,7 @@ formatter.match({
   "location": "MyStepDefs.user_is_on_homepage()"
 });
 formatter.result({
-  "duration": 35364017,
+  "duration": 858136531,
   "status": "passed"
 });
 formatter.match({
@@ -244,7 +276,7 @@ formatter.match({
   "location": "MyStepDefs.user_enters_in_username_inputbox(String)"
 });
 formatter.result({
-  "duration": 22545386,
+  "duration": 829063357,
   "status": "passed"
 });
 formatter.match({
@@ -257,25 +289,425 @@ formatter.match({
   "location": "MyStepDefs.user_enters_in_password_inputbox(String)"
 });
 formatter.result({
-  "duration": 22983577,
+  "duration": 3243784680,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefs.user_should_able_to_click_on_login_button()"
 });
 formatter.result({
-  "duration": 235321180,
+  "duration": 1396216927,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefs.user_should_not_be_able_to_log_in_successfully_and_user_should_get_an_error_message()"
 });
 formatter.result({
-  "duration": 29377944,
+  "duration": 3234253370,
   "status": "passed"
 });
 formatter.after({
-  "duration": 743798290,
+  "duration": 1480113429,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 84305377649,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 27,
+  "name": "User should not be able to log in successfully.",
+  "description": "and user get an error message.",
+  "id": ";user-should-not-be-able-to-log-in-successfully.;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 13,
+      "name": "@invalidCredential"
+    }
+  ]
+});
+formatter.step({
+  "line": 17,
+  "name": "user is on homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 18,
+  "name": "User enters \"admin@123\" in username inputbox",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 19,
+  "name": "User enters \"password\" in password inputbox",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "user should able to click on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "user should not be able to log in successfully and user should get an error message",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MyStepDefs.user_is_on_homepage()"
+});
+formatter.result({
+  "duration": 718296679,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin@123",
+      "offset": 13
+    }
+  ],
+  "location": "MyStepDefs.user_enters_in_username_inputbox(String)"
+});
+formatter.result({
+  "duration": 794868889,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "password",
+      "offset": 13
+    }
+  ],
+  "location": "MyStepDefs.user_enters_in_password_inputbox(String)"
+});
+formatter.result({
+  "duration": 1008950329,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepDefs.user_should_able_to_click_on_login_button()"
+});
+formatter.result({
+  "duration": 1324870428,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepDefs.user_should_not_be_able_to_log_in_successfully_and_user_should_get_an_error_message()"
+});
+formatter.result({
+  "duration": 5946967807,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1177856660,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 13365557878,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 28,
+  "name": "User should not be able to log in successfully.",
+  "description": "and user get an error message.",
+  "id": ";user-should-not-be-able-to-log-in-successfully.;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 13,
+      "name": "@invalidCredential"
+    }
+  ]
+});
+formatter.step({
+  "line": 17,
+  "name": "user is on homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 18,
+  "name": "User enters \"123\" in username inputbox",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 19,
+  "name": "User enters \"admin123\" in password inputbox",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "user should able to click on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "user should not be able to log in successfully and user should get an error message",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MyStepDefs.user_is_on_homepage()"
+});
+formatter.result({
+  "duration": 696801701,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "123",
+      "offset": 13
+    }
+  ],
+  "location": "MyStepDefs.user_enters_in_username_inputbox(String)"
+});
+formatter.result({
+  "duration": 847470477,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin123",
+      "offset": 13
+    }
+  ],
+  "location": "MyStepDefs.user_enters_in_password_inputbox(String)"
+});
+formatter.result({
+  "duration": 718088740,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepDefs.user_should_able_to_click_on_login_button()"
+});
+formatter.result({
+  "duration": 1360945724,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepDefs.user_should_not_be_able_to_log_in_successfully_and_user_should_get_an_error_message()"
+});
+formatter.result({
+  "duration": 1322662520,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1070302784,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 89291768313,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 29,
+  "name": "User should not be able to log in successfully.",
+  "description": "and user get an error message.",
+  "id": ";user-should-not-be-able-to-log-in-successfully.;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 13,
+      "name": "@invalidCredential"
+    }
+  ]
+});
+formatter.step({
+  "line": 17,
+  "name": "user is on homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 18,
+  "name": "User enters \"ADMIN999\" in username inputbox",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 19,
+  "name": "User enters \"admin123\" in password inputbox",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "user should able to click on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "user should not be able to log in successfully and user should get an error message",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MyStepDefs.user_is_on_homepage()"
+});
+formatter.result({
+  "duration": 722190863,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ADMIN999",
+      "offset": 13
+    }
+  ],
+  "location": "MyStepDefs.user_enters_in_username_inputbox(String)"
+});
+formatter.result({
+  "duration": 698799885,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin123",
+      "offset": 13
+    }
+  ],
+  "location": "MyStepDefs.user_enters_in_password_inputbox(String)"
+});
+formatter.result({
+  "duration": 739571671,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepDefs.user_should_able_to_click_on_login_button()"
+});
+formatter.result({
+  "duration": 2343828633,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepDefs.user_should_not_be_able_to_log_in_successfully_and_user_should_get_an_error_message()"
+});
+formatter.result({
+  "duration": 2914210175,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1206772317,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 13693045401,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 30,
+  "name": "User should not be able to log in successfully.",
+  "description": "and user get an error message.",
+  "id": ";user-should-not-be-able-to-log-in-successfully.;;7",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 13,
+      "name": "@invalidCredential"
+    }
+  ]
+});
+formatter.step({
+  "line": 17,
+  "name": "user is on homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 18,
+  "name": "User enters \"@admin\" in username inputbox",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 19,
+  "name": "User enters \"ADMIN123\" in password inputbox",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "user should able to click on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "user should not be able to log in successfully and user should get an error message",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MyStepDefs.user_is_on_homepage()"
+});
+formatter.result({
+  "duration": 1284477038,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "@admin",
+      "offset": 13
+    }
+  ],
+  "location": "MyStepDefs.user_enters_in_username_inputbox(String)"
+});
+formatter.result({
+  "duration": 1240195267,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ADMIN123",
+      "offset": 13
+    }
+  ],
+  "location": "MyStepDefs.user_enters_in_password_inputbox(String)"
+});
+formatter.result({
+  "duration": 1387369229,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepDefs.user_should_able_to_click_on_login_button()"
+});
+formatter.result({
+  "duration": 2165589560,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepDefs.user_should_not_be_able_to_log_in_successfully_and_user_should_get_an_error_message()"
+});
+formatter.result({
+  "duration": 3118790202,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1447520900,
   "status": "passed"
 });
 });

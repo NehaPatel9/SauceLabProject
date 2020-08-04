@@ -19,7 +19,6 @@ public class Hooks extends Util{ //Class Hook to manage opening and closing brow
                     .getScreenshotAs(OutputType.BYTES);
             scenario.embed(screenshot, "image/png"); //stick it in the report
 
-
             System.out.println("Test Case Failed");
         }
         driver.close();
