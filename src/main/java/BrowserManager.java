@@ -16,8 +16,8 @@ public class BrowserManager extends Util {
 
     public static final String USERNAME = "NehaPatel9";// User Name for SauceLabs Account
     public static final String ACCESS_KEY = "35f58bc1-11d1-4805-b77a-6dc9d4cbc624"; //Access key for SauceLabs Account
-    public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
-    // public static final String URL = "https://NehaPatel9:35f58bc1-11d1-4805-b77a-6dc9d4cbc624@ondemand.us-west-1.saucelabs.com:443/wd/hub" + "NehaPatel9" + ":" + "35f58bc1-11d1-4805-b77a-6dc9d4cbc624" + "@ondemand.saucelabs.com:80/wd/hub";
+   // public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.us-west-1.saucelabs.com:443/wd/hub";
+    public static final String URL = "https://NehaPatel9:35f58bc1-11d1-4805-b77a-6dc9d4cbc624@ondemand.us-west-1.saucelabs.com:443/wd/hub";
 
     public void setBrowser() {
         String browserName = loadProp.getProperty("browserName");//User can change browser as per requirement
